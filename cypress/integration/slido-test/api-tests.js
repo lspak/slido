@@ -13,6 +13,7 @@ describe('UI Tests', () => {
           expect(board.status).to.eq(201)
           expect(board.body.starred).to.be.false
           expect(board.body.user).to.eq(0)
+          expect
         })
     })
 
